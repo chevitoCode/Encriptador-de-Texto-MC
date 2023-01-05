@@ -1,28 +1,41 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background: #F3F5FC;
+body {
+    background: #F3F5FC ;
 }
 
-#logo {
+.logo {    
+    width: 120px;
+    height: 48px;
+}
+.vector {
     width: 120px;
     height: 48px;
     margin-top: 18px;
-}
+    color: #0A3871;
 
-#borde {
-    text-align: right;
-    background-color: WHITE;
+}
+.borde {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    background: white;
     border-radius: 32px;
-    display: flex;
-    margin-left: 800px;
-    margin-top: .40px;
-    padding-top: 100px;
-    padding-left: 70px;
-    padding-bottom: 179px;
-}
-#muneco {
-    background-color: #ffff;
 }
 
+.muneco {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.mensaje-no-encontrado {
+    display: inline-block;
+    position: absolute;
+    right: 85px;
+    top: 472px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #343A40;
+}
+
+.desencriptar {
+    text-align: center;
+}

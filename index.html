@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Reset/reset.css">
     <link rel="stylesheet" href="/index.css">
     <link rel="javascript" href="/index.js">
     <title>Document</title>
 </head>
 <body>
     <head>
-        <div id="logo">
-            <img src="/media/imagenes/Logo (1).png" alt="Logo alura">
+        <div class="logo">
+            <img class="vector" src="/media/imagenes/Logo (1).png" alt="Logo alura">
         </div>
 
-        <div id="borde">
-            <img id="muneco" src="/media/imagenes/Muñeco.png" alt="Muñeco buscando">
+        <div class="borde">
+            <img class="muneco" src="/media/imagenes/Muñeco.png" alt="Muñeco buscando">
+        <p class="mensaje-no-encontrado">
+            Ningun mensaje <br> fue encontrado
+        </p>
+        <input class="desencriptar" name="desencriptar" value="Ingresa el texto que deseas encriptar o desencriptar">
+            
+        </input>
         </div>
-        <p>
-            Ningun mensaje fue encontrado
-        </p>
-        <p>
-            Ingresa el texto que deseas encriptar o desencriptar
-        </p>
     </head>
     <body>
         <div>
-            <p>
-                Ingrese el Texto aqui
-            </p>
+            <input type="text" name="texto" value="Ingrese texto aquí" required>      
         </div>
     </body>
     <footer>
