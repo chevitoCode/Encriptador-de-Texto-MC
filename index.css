@@ -122,12 +122,16 @@ body {
 .typografia {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 100;
+    font-size: 30px;
     line-height: 150%;
     color:#0A3871;
     background-color:#F3F5FC ;
     border-style: none;
+}
+
+.typografia::placeholder {
+    color: #0A3871;
 }
 
 .signo {
@@ -171,6 +175,7 @@ body {
     order: 0;
     flex-grow: 0;
     color: white;
+    cursor: pointer;
 }
 
 .desencriptar {
@@ -185,4 +190,57 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
+}
+
+/*Inicio de CSS desktop2*/
+
+.lorem2 {
+    position:absolute;
+    width: 336px;
+    height: 781px;
+    left: 18px;
+    top: 72PX;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#495057;
+    border-style: none;
+}
+
+#lorem2 {
+    border: none;
+}
+
+.btn-copiar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 232px;
+    height: 18px;
+    left: 18px;
+    top: 770px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.btn{
+    width: 228px;
+    height: 19px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    background-color: white;
+    border: none;
+    cursor: pointer;
 }
